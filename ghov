@@ -1,0 +1,18 @@
+//ex teleferico
+var c, a,r;
+scanf("%d%d","c","a");
+r=Math.ceil(a / (c - 1));
+printf("%d",r);
+
+//ex xadrez
+var l, c
+l = parseInt(prompt("Digite a linha"));
+c = parseInt(prompt("Digite a coluna"));
+if (l % 2 == 0 && c % 2 == 0 || l % 2 != 0 && c % 2 != 0 )
+{
+    alert("1");
+}
+else
+{
+    alert("0")
+}
